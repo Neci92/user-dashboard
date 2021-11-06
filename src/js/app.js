@@ -1,5 +1,5 @@
 import populateGrid from './modules/populateGrid';
-import chartIt from './modules/charts/chartGenerator';
+import chartIt from './modules/newCharts';
 
 
 const chartData = {
