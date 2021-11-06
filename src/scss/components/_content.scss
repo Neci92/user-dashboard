@@ -1,0 +1,106 @@
+.content {
+  padding: 5rem 0;
+  background-color: $color-midnight;
+
+  &__main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15rem;
+  }
+
+  &__top-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+
+  &__heading {
+    font-size: 3.8rem;
+    font-weight: bold;
+    color: $color-white;
+    margin: 0;
+  }
+
+  &__input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 4rem;
+    padding-left: 2rem;
+    border-radius: 3rem;
+    background-color: $color-dark;
+    color: $color-white;
+    border: none;
+
+    &:focus {
+      border: 1px solid rgba($color-white, $alpha: 0.3);
+    }
+
+    &::placeholder {
+      color: $color-white;
+    }
+  }
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 10rem;
+    width: 100%;
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    flex-basis: 20%;
+    text-align: center;
+    background-color: $color-dark;
+    border-radius: 3rem;
+    padding: 3rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: lighten($color-dark, $amount: 5);
+    }
+  }
+
+  &__img-box {
+    display: flex;
+    border-radius: 50%;
+    border: 5px solid $color-white;
+    margin-top: -10rem;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    color: $color-white;
+  }
+
+  &__upload {
+    max-width: 22rem;
+  }
+
+  &__chart-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+  }
+
+  &__chart {
+    flex-basis: 60%;
+    background-color: $color-white;
+    padding: 0.5rem;
+  }
+
+  &__chart-pie {
+    flex-basis: 35%;
+    background-color: $color-white;
+    padding: 0.5rem;
+  }
+}

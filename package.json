@@ -1,0 +1,25 @@
+{
+  "name": "user-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass src/scss/main.scss src/css/style.css -w",
+    "start": "parcel src/index.html",
+    "build": "parcel build --public-url=./ --no-minify  src/index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://nenadst.github.io/gros/",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "gh-pages": "^3.2.3",
+    "swiper": "^6.5.9"
+  }
+}

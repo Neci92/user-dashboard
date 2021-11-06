@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: $ff-sans !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem !important;
+  font-family: $ff-sans !important;
+}
+
+main {
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+label {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+picture img {
+  display: block;
+}
+
+body picture {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+input:focus,
+textarea:focus {
+  border-color: $color-black;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba($color-black, 0.25);
+}
+
+button:focus {
+  outline: none !important;
+}
