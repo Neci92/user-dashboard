@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "chart.js": "^3.6.0",
     "gh-pages": "^3.2.3",
     "swiper": "^6.5.9"
   }
